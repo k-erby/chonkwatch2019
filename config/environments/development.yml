@@ -1,0 +1,36 @@
+secret_key_base: MFOzEVhq-MguLfJohcncGQx1xR3EFvVD6PEgDbCoKrk
+port: 3000
+name: chonkwatch2019
+
+logging:
+  severity: debug
+  colorize: true
+  filter:
+    - password
+    - confirm_password
+  context:
+    - request
+    - session
+    - headers
+    - cookies
+    - params
+
+host: 0.0.0.0
+port_reuse: true
+process_count: 1
+# ssl_key_file:
+# ssl_cert_file:
+redis_url: "redis://localhost:6379"
+database_url: sqlite3:./db/chonkwatch2019_development.db
+auto_reload: true
+
+session:
+  key: amber.session
+  store: signed_cookie
+  expires: 0
+
+smtp:
+  enabled: false
+
+secrets:
+  description: Store your development secrets credentials and settings here.

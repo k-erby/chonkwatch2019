@@ -1,7 +1,22 @@
 $primary: #f4994b;
 
 @import '~bootstrap/scss/bootstrap';
+@import "./waves.scss";
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
 
 .main {
   padding-top: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+#description {
+  text-align: center;
+}
+
+#weight-info {
+  padding-top: 2.5rem;
 }

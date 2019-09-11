@@ -1,3 +1,3 @@
-h1 New Weight
+h1 new weight
 
 == render(partial: "_form.slang")

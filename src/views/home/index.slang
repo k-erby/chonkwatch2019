@@ -8,7 +8,10 @@ row.d-flex.justify-content-center
 
 row.d-flex.justify-content-around#weight-info
   .col-5.col-md-5
-    h2.text-center 13.8
+    - if weights.last?
+      h2.text-center = weights.last.pounds
+    - else
+      h2.text-center no current weight
     p.text-center current weight
   .col-5.col-md-5
     h2.text-center 12.0

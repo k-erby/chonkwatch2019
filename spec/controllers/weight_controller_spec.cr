@@ -49,7 +49,7 @@ describe WeightControllerTest do
     response = subject.get location
 
     response.status_code.should eq(200)
-    response.body.should contain("Show Weight")
+    response.body.should contain("show weight")
   end
 
   it "renders weight new template" do
@@ -59,7 +59,7 @@ describe WeightControllerTest do
     response = subject.get location
 
     response.status_code.should eq(200)
-    response.body.should contain("New Weight")
+    response.body.should contain("new weight")
   end
 
   it "renders weight edit template" do
@@ -70,7 +70,7 @@ describe WeightControllerTest do
     response = subject.get location
 
     response.status_code.should eq(200)
-    response.body.should contain("Edit Weight")
+    response.body.should contain("edit weight")
   end
 
   it "creates a weight" do

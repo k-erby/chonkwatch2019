@@ -31,3 +31,7 @@ html
 
     - if Amber.settings.auto_reload?
       script src="/js/client_reload.js"
+
+  footer#waves
+    div.wave
+    div.wave

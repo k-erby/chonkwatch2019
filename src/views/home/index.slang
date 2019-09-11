@@ -1,8 +1,15 @@
-.row.justify-content-center
-  .col-sm-12.col-md-6
-    h2 = t "welcome_to_amber"
-    p Thank you for trying out the Amber Framework.  We are working hard to provide a super fast and reliable framework that provides all the productivity tools you are used to without sacrificing the speed.
-    .list-group
-      a.list-group-item.list-group-item-action target="_blank" href="https://docs.amberframework.org" Getting Started with Amber Framework
-      a.list-group-item.list-group-item-action target="_blank" href="https://github.com/veelenga/awesome-crystal" List of Awesome Crystal projects and shards
-      a.list-group-item.list-group-item-action target="_blank" href="https://crystalshards.xyz" What's hot in Crystal right now
+row.d-flex.justify-content-center
+  .col-6.col-md-4
+    h1.text-center#title
+      | chonkwatch
+    p.text-center#description
+      | monty is a bit of a chonk. hopefully he can lose some of
+      that pudge. guess we'll see.
+
+row.d-flex.justify-content-around#weight-info
+  .col-5.col-md-5
+    h2.text-center 13.8
+    p.text-center current weight
+  .col-5.col-md-5
+    h2.text-center 12.0
+    p.text-center goal weight

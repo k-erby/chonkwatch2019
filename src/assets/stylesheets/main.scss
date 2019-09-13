@@ -9,12 +9,12 @@ $primary: #f4994b;
   font-family: 'Rubik', sans-serif;
 }
 
-h1 {
+#title {
   padding: 2rem;
 }
 
 #description {
-  text-align: center;
+  max-width: 300px;
 }
 
 #weight-info {

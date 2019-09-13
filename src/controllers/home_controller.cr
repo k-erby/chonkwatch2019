@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   getter weight = Weight.new
 
   def index
-    weights = Weight.all
+    weight = Weight.order(id: :desc).select.first?
     render "index.slang"
   end
 end

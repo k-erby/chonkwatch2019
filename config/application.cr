@@ -11,7 +11,6 @@ require "amber"
 require "./settings"
 require "./i18n"
 require "./database"
-require "./initializers/**"
 
 # Start Generator Dependencies: Don't modify.
 require "../src/models/**"
